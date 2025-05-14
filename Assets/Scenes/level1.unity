@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 279794527}
   - component: {fileID: 279794526}
   - component: {fileID: 279794525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 822557498}
   - component: {fileID: 822557497}
   - component: {fileID: 822557496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,11 +471,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9641919fa15977f41a0ef141b3e01ca4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 0}
-  groundCheck: {fileID: 0}
+  rb: {fileID: 1125087490}
+  groundCheck: {fileID: 1785424920}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!61 &1125087489
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -485,7 +485,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1125087487}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5141dc5f6b2a0f24389beee035fbe9ba, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -519,7 +519,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0001, y: 0.0001}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &1125087490
 Rigidbody2D:
@@ -609,7 +609,7 @@ Transform:
   m_GameObject: {fileID: 1125087487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -1.92, z: 0}
+  m_LocalPosition: {x: 0.05, y: -0.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 1194461952}
   - component: {fileID: 1194461951}
   - component: {fileID: 1194461950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
