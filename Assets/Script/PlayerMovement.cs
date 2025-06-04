@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    [SeializedField] private TrailRenderer tr;
+    [SerializeField] private TrailRenderer tr;
 
     void Update()
     {
