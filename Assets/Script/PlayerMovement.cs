@@ -27,12 +27,12 @@ public class PlayerMovement : MonoBehaviour
         }
         horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if ((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.S)) && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        if ((Input.GetButtonUp("Jump") || Input.GetKeyUp(KeyCode.S)) && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -41,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
-
 
         Flip();
     }

@@ -477,6 +477,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  tr: {fileID: 1125087493}
 --- !u!61 &1125087489
 BoxCollider2D:
   m_ObjectHideFlags: 0
