@@ -27,11 +27,11 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Handle horizontal movement using arrow keys
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.J))
         {
             horizontal = -1f;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.L))
         {
             horizontal = 1f;
         }
@@ -41,7 +41,7 @@ public class Player2Movement : MonoBehaviour
         }
 
         // Jump with Up Arrow key only
-        if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
+        if (Input.GetKeyDown(KeyCode.K) && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
