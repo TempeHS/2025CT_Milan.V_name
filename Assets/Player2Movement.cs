@@ -39,9 +39,8 @@ public class Player2Movement : MonoBehaviour
         {
             horizontal = 0f;
         }
-
         // Jump with Up Arrow key only
-        if (Input.GetKeyDown(KeyCode.K) && IsGrounded())
+        if (Input.GetKey(KeyCode.K) && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
@@ -70,7 +69,6 @@ public class Player2Movement : MonoBehaviour
 
     private bool IsGrounded()
     {
-        Debug.Log("update");
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
