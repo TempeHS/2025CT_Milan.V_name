@@ -1015,18 +1015,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.050284803, y: 0.5399023}
+  m_Offset: {x: -0.019186646, y: -0.010360956}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 1.5, y: 1.5}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.59, y: 0.66}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0994304, y: 1.2719872}
+  m_Size: {x: 0.62339026, y: 0.66490006}
   m_EdgeRadius: 0
 --- !u!50 &1125087490
 Rigidbody2D:
@@ -1095,8 +1095,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300016, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: c93beadc196b8304799cafcf204c6a81, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1115,14 +1115,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125087487}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.05, y: 0.44, z: 0}
-  m_LocalScale: {x: 1.9877545, y: 1.8513296, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.70705825, w: 0.7071553}
+  m_LocalPosition: {x: -3.7242, y: 1.6, z: 0}
+  m_LocalScale: {x: 4.0372276, y: 3.5407522, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1785424920}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.992}
 --- !u!96 &1125087493
 TrailRenderer:
   serializedVersion: 3
@@ -1536,6 +1536,8 @@ GameObject:
   - component: {fileID: 1346512780}
   - component: {fileID: 1346512783}
   - component: {fileID: 1346512782}
+  - component: {fileID: 1346512784}
+  - component: {fileID: 1346512785}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Untagged
@@ -1604,8 +1606,8 @@ Transform:
   m_GameObject: {fileID: 1346512777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.47, y: 1.2, z: 0}
-  m_LocalScale: {x: 3.7226374, y: 3.5417693, z: 1}
+  m_LocalPosition: {x: 3.2716, y: 1.4457, z: 0}
+  m_LocalScale: {x: 4.3428288, y: 4.3096247, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 570186337}
@@ -1643,7 +1645,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000011920929, y: 0.01881431}
+  m_Offset: {x: 0.00000011920929, y: 0.040849045}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1654,7 +1656,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.66299546, y: 0.6355715}
+  m_Size: {x: 0.66299546, y: 0.5915021}
   m_EdgeRadius: 0
 --- !u!50 &1346512781
 Rigidbody2D:
@@ -1804,6 +1806,42 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!95 &1346512784
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346512777}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c680e5ad9552f0d48a0ff15cac85572e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &1346512785
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346512777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 41a3b1fb65b99c14cbfff6b7d4eb89b4, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1785424919
 GameObject:
   m_ObjectHideFlags: 0
