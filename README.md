@@ -1,6 +1,6 @@
 # Project Title
 
-My Game
+Dungeon Duel 2P
 
 ## Description
 
