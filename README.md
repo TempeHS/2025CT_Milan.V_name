@@ -4,19 +4,15 @@ Dungeon Duel 2P
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a two-player fighting game made in Unity where each player controls a unique character with special abilities. The goal is to outsmart and defeat your opponent using timing, strategy, and your character’s powers. It’s designed for local multiplayer, so friends can battle it out side by side. The game features smooth controls, cool visuals, and a fun arena that keeps the action exciting. It’s a great showcase of Unity’s game-making tools and a solid base for adding more features like online play or new characters.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* We used the Unity 3.10.0 version to create the game file. 
+* We used the Unity Editor 22.3.15f1 version to load in the game.
+* 
 
 ### Executing program
 
@@ -35,10 +31,8 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+Milan Vladisavljevic 
+[@milanvladisavljevic](https://github.com/milanvladisavljevic)
 
 ## Version History
 
@@ -48,9 +42,6 @@ ex. [@benpaddlejones](https://github.com/benpaddlejones)
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
