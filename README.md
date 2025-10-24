@@ -12,7 +12,6 @@ This is a two-player fighting game made in Unity where each player controls a un
 
 * We used the Unity 3.10.0 version to create the game file. 
 * We used the Unity Editor 22.3.15f1 version to load in the game.
-* 
 
 ### Executing program
 
